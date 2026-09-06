@@ -198,27 +198,15 @@ export class ApiService {
       return res.data;
     }
 
-    // Seamless client-side session creation if backend is offline or static
-    const name = profile.characterName?.trim() || generateCharacterName(profile.interests);
-    const publicId = generatePublicId(name);
-    const mockToken = `anon_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
-
-    const fallbackUser: AnonymousUser = {
-      internalId: mockToken,
-      publicId,
-      characterName: name,
-      avatarStyle: profile.avatarStyle,
-      interests: profile.interests,
-      bio: profile.bio || '',
-      voicePreference: profile.voicePreference || 'voice_and_text',
-      presence: 'online',
-      createdAt: Date.now(),
-    };
-
-    this.setStoredToken(mockToken);
-    localStorage.setItem('anon_user_profile', JSON.stringify(fallbackUser));
-
-    return { token: mockToken, user: fallbackUser };
+    // IMPORTANT: Do NOT create a fake local token here.
+    // A fake token (not known to the backend) will cause the socket to be
+    // immediately disconnected on the server, silently breaking all real-time
+    // features (messaging, room joining, WebRTC signaling).
+    // Instead, surface the error so the user can retry.
+    throw new Error(
+      res.error ||
+        'Could not connect to the backend server. Please check your internet connection and try again.'
+    );
   }
 
   public static async getCurrentUser(): Promise<AnonymousUser | null> {
@@ -326,20 +314,41 @@ export class ApiService {
       const token = this.getStoredToken();
       const backendUrl = getBackendUrl();
       const socketTarget = backendUrl || (typeof window !== 'undefined' ? window.location.origin : '');
-      
+
+      // In production, match the server's WebSocket-only transport setting to
+      // avoid long-polling issues on Render's proxy layer.
+      const isProduction =
+        typeof window !== 'undefined' &&
+        window.location.protocol === 'https:';
+
       this.socketInstance = io(socketTarget, {
         auth: { userId: token },
         autoConnect: true,
         reconnection: true,
-        reconnectionAttempts: 5,
+        reconnectionAttempts: 8,
         reconnectionDelay: 1500,
-        timeout: 4000,
+        timeout: 8000,
+        transports: isProduction ? ['websocket'] : ['polling', 'websocket'],
       });
 
       this.socketInstance.on('connect_error', (err) => {
-        console.warn('Real-time socket notice: Backend server currently disconnected. Operating in local PWA mode.', err.message);
+        console.warn('[Socket] Connection error:', err.message);
       });
     }
     return this.socketInstance;
+  }
+
+  /**
+   * Force-reconnect the socket with the current stored token.
+   * Must be called after a new user is registered so the socket auth
+   * reflects the real internalId (not a stale null or fake token).
+   */
+  public static reconnectSocket(): void {
+    if (this.socketInstance) {
+      this.socketInstance.disconnect();
+      this.socketInstance = null;
+    }
+    // getSocket() will now create a fresh connection with the current token
+    this.getSocket();
   }
 }

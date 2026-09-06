@@ -61,6 +61,9 @@ const io = new Server<ClientToServerEvents, ServerToClientEvents>(server, {
     credentials: true,
     methods: ['GET', 'POST'],
   },
+  // Force WebSocket transport only in production to avoid long-polling issues
+  // on Render's proxy layer. Polling can cause stale/dropped connections.
+  transports: process.env.NODE_ENV === 'production' ? ['websocket'] : ['polling', 'websocket'],
   pingTimeout: 25000,
   pingInterval: 10000,
 });

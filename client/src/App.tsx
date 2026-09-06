@@ -225,14 +225,34 @@ export const App: React.FC = () => {
     };
   };
 
-  // Create Private Room (Bulletproof: Socket -> REST -> Standalone fallback)
+  // Create Private Room
+  // When the socket is connected: use socket event (real server room).
+  // When the socket is OFFLINE: fall back to REST API, then standalone local room.
+  // IMPORTANT: Do NOT fall back to a local room when socket is connected but
+  // times out — a ghost room breaks cross-device sync entirely.
   const handleCreatePrivateRoom = () => {
     if (!currentUser) return;
     const socket = ApiService.getSocket();
 
-    const fallbackCreate = async () => {
-      try {
-        const res = await ApiService.createRoom('invite', 20, currentUser.interests || []);
+    if (socket.connected) {
+      // Socket is connected — use it exclusively. No fallback to local room.
+      (socket as any).timeout(5000).emit('room:create', {
+        type: 'invite',
+        maxUsers: 20,
+        interests: currentUser.interests || [],
+      }, (err: any, res: any) => {
+        if (!err && res?.success && res?.room) {
+          setCurrentRoom(res.room);
+          setCurrentView('room');
+        } else {
+          // Socket connected but event failed — show error, don't create ghost room
+          const errMsg = res?.error || err?.message || 'Room creation failed. Please try again.';
+          alert(`Could not create room: ${errMsg}`);
+        }
+      });
+    } else {
+      // Socket is truly offline — try REST API first, then standalone
+      ApiService.createRoom('invite', 20, currentUser.interests || []).then((res) => {
         if (res?.room) {
           const joinedRoom: Room = {
             ...res.room,
@@ -250,37 +270,23 @@ export const App: React.FC = () => {
           };
           setCurrentRoom(joinedRoom);
           setCurrentView('room');
-          return;
-        }
-      } catch (err) {
-        console.warn('API room creation notice:', err);
-      }
-
-      // Standalone guaranteed room
-      const standalone = buildStandaloneRoom();
-      setCurrentRoom(standalone);
-      setCurrentView('room');
-    };
-
-    if (socket.connected) {
-      (socket as any).timeout(2000).emit('room:create', {
-        type: 'invite',
-        maxUsers: 20,
-        interests: currentUser.interests || [],
-      }, (err: any, res: any) => {
-        if (!err && res?.success && res?.room) {
-          setCurrentRoom(res.room);
-          setCurrentView('room');
         } else {
-          fallbackCreate();
+          // Full offline: standalone local room (single device, no cross-device sync)
+          const standalone = buildStandaloneRoom();
+          setCurrentRoom(standalone);
+          setCurrentView('room');
         }
+      }).catch(() => {
+        const standalone = buildStandaloneRoom();
+        setCurrentRoom(standalone);
+        setCurrentView('room');
       });
-    } else {
-      fallbackCreate();
     }
   };
 
-  // Join Room by Code or Token (Never hangs or freezes)
+  // Join Room by Code or Token
+  // When socket is connected: use socket event exclusively (real server room).
+  // When socket is OFFLINE: show error — a ghost room cannot sync with the host.
   const handleJoinByCode = async (codeOrToken: string) => {
     if (!currentUser) return;
     const cleanCode = codeOrToken.trim().toUpperCase();
@@ -293,31 +299,9 @@ export const App: React.FC = () => {
     setJoinError('');
     const socket = ApiService.getSocket();
 
-    const fallbackJoin = async () => {
-      try {
-        const res = await ApiService.validateInvite(cleanCode);
-        if (res) {
-          const standalone = buildStandaloneRoom(res.roomCode || cleanCode);
-          standalone.members[0].isHost = false;
-          setCurrentRoom(standalone);
-          setShowJoinPrompt(false);
-          setJoinCodeInput('');
-          setCurrentView('room');
-          return;
-        }
-      } catch {
-        // Fallback standalone preview
-      }
-      const standalone = buildStandaloneRoom(cleanCode);
-      standalone.members[0].isHost = false;
-      setCurrentRoom(standalone);
-      setShowJoinPrompt(false);
-      setJoinCodeInput('');
-      setCurrentView('room');
-    };
-    
     if (socket.connected) {
-      (socket as any).timeout(2500).emit('room:join', { roomIdOrCode: cleanCode }, (err: any, res: any) => {
+      // Socket is connected — join on the server. No fallback to local ghost room.
+      (socket as any).timeout(6000).emit('room:join', { roomIdOrCode: cleanCode }, (err: any, res: any) => {
         setIsJoining(false);
         if (!err && res?.success && res?.room) {
           setCurrentRoom(res.room);
@@ -325,12 +309,18 @@ export const App: React.FC = () => {
           setJoinCodeInput('');
           setCurrentView('room');
         } else {
-          fallbackJoin();
+          // Server rejected the join — show the actual error
+          const errMsg = res?.error || err?.message || 'Room not found. Check the code and try again.';
+          setJoinError(errMsg);
         }
       });
     } else {
+      // Socket is truly offline — cannot sync with other devices
       setIsJoining(false);
-      fallbackJoin();
+      setJoinError(
+        'Not connected to the server. Please check your internet connection and reload the page. ' +
+        'If the server is offline, both devices will not be able to communicate.'
+      );
     }
   };
 
@@ -359,6 +349,12 @@ export const App: React.FC = () => {
         onComplete={(user) => {
           setCurrentUser(user);
           setSelectedInterests(user.interests || []);
+          // CRITICAL FIX: After the user is registered on the backend, force the
+          // socket to reconnect with the new real internalId as the auth token.
+          // Without this, the socket was created before registration completed
+          // (with a null/stale token), causing the server to immediately
+          // disconnect it and silently break all real-time features.
+          ApiService.reconnectSocket();
           setCurrentView('home');
         }}
         onJoinCodeRequest={(code) => {

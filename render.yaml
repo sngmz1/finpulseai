@@ -3,10 +3,10 @@ services:
     name: anonymus-chat-backend
     env: node
     plan: free
-    buildCommand: npm install
+    buildCommand: npm run build:client && npm install
     startCommand: npx tsx server/src/index.ts
     envVars:
-      - key: PORT
-        value: 3001
       - key: NODE_ENV
         value: production
+      - key: ADMIN_KEY
+        generateValue: true

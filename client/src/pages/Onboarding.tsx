@@ -84,21 +84,11 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete, onJoinCodeRe
       });
       onComplete(user);
     } catch (err: any) {
-      console.warn('Registration fallback triggered:', err);
-      const fallbackUser: AnonymousUser = {
-        internalId: `anon_${Date.now()}`,
-        publicId: publicId || 'ANO-7X92-K4',
-        characterName: characterName.trim() || 'ShadowKairo',
-        avatarStyle,
-        interests: selectedInterests,
-        bio: bio.trim(),
-        voicePreference: voicePref,
-        presence: 'online',
-        createdAt: Date.now(),
-      };
-      ApiService.setStoredToken(fallbackUser.internalId);
-      localStorage.setItem('anon_user_profile', JSON.stringify(fallbackUser));
-      onComplete(fallbackUser);
+      // Surface the real error. Creating a fake local session here would cause the
+      // socket to be immediately rejected by the server (unknown token), silently
+      // breaking messaging, room joining, and WebRTC signaling for both devices.
+      const msg = err?.message || 'Server registration failed. Please try again.';
+      setErrorMsg(`⚠ ${msg}`);
     } finally {
       setIsGenerating(false);
     }
