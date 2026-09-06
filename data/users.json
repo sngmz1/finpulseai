@@ -1,0 +1,1409 @@
+[
+  {
+    "internalId": "da44de63-bdf0-43c5-a3e3-cfd4377fb13e",
+    "publicId": "SHA-HUUW-L6",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600066705
+  },
+  {
+    "internalId": "16c0d6bf-df33-4043-9d54-57fde8ba9254",
+    "publicId": "KAI-3QJV-7N",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600066713
+  },
+  {
+    "internalId": "c6c4ec57-1a5f-4b3e-ad17-43336516e665",
+    "publicId": "NOV-8XGK-QZ",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600066731
+  },
+  {
+    "internalId": "24d2bba9-305b-48ac-a1a8-954c57a1aa01",
+    "publicId": "SPE-AS82-9H",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600066745
+  },
+  {
+    "internalId": "3c5fe25b-6a71-4c13-9828-7596df3c1bf9",
+    "publicId": "SHA-T6TR-E6",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600075956
+  },
+  {
+    "internalId": "e1966805-c77e-4a95-9b4c-f712b2e90420",
+    "publicId": "KAI-UR77-5C",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600075962
+  },
+  {
+    "internalId": "a2252522-4a4f-4761-925d-4fd10268cc14",
+    "publicId": "NOV-NATN-NS",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600075979
+  },
+  {
+    "internalId": "2dd23251-7a0b-425f-9360-bb14e4ccb5d3",
+    "publicId": "SPE-R79U-WQ",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600075987
+  },
+  {
+    "internalId": "02b3d829-e3ae-4fba-907e-daf8e9d10c12",
+    "publicId": "ZEN-4MJY-WG",
+    "characterName": "ZenGale",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime",
+      "manga",
+      "manhwa"
+    ],
+    "bio": "hi",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788600178370
+  },
+  {
+    "internalId": "358876db-ec6b-4eb6-a3d3-1852af975771",
+    "publicId": "SHA-V2GD-SE",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004910
+  },
+  {
+    "internalId": "4f81b00c-65b7-4479-8b08-912b6a4f89e8",
+    "publicId": "SHA-U9G5-8C",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004911
+  },
+  {
+    "internalId": "e39cecd6-1c98-4377-b841-e3c2b13b78f4",
+    "publicId": "KAI-5FXK-RC",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004920
+  },
+  {
+    "internalId": "69e8062a-d4b7-451d-8025-9f4a91b7d8b9",
+    "publicId": "KAI-SHFL-V2",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004921
+  },
+  {
+    "internalId": "ac31fd7d-4f9e-4451-9d5f-4a90d1f746c2",
+    "publicId": "NOV-B28B-2H",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004927
+  },
+  {
+    "internalId": "c6652bcf-0145-4718-a4cb-bf064295fc0a",
+    "publicId": "SPE-3FGN-4Y",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004935
+  },
+  {
+    "internalId": "63299321-3768-40d3-85d2-787a87f3a693",
+    "publicId": "NOV-XSUF-LY",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004937
+  },
+  {
+    "internalId": "7e0b5e9a-d0c6-426a-be30-dbb8af7bba91",
+    "publicId": "SPE-276W-BL",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788601004944
+  },
+  {
+    "internalId": "de25f8dc-b7ac-4d09-adcc-af051e24bc84",
+    "publicId": "SHA-2XRZ-RZ",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019129
+  },
+  {
+    "internalId": "42754cc1-3bfd-48e5-ac91-f92969db7e4a",
+    "publicId": "SHA-76N8-JY",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019130
+  },
+  {
+    "internalId": "ee7be9ed-4d6f-423d-b5b1-f7d1f06a21bd",
+    "publicId": "KAI-JWYL-D9",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019137
+  },
+  {
+    "internalId": "334a7acc-049e-4563-904f-7d76ff8d0ef8",
+    "publicId": "KAI-CB25-JW",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019140
+  },
+  {
+    "internalId": "af52cd88-e4c9-412a-b0b6-6cdf42bc0f39",
+    "publicId": "NOV-63WN-LU",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019151
+  },
+  {
+    "internalId": "1fe4b6b2-3d97-4acf-8b2e-f85180e4454e",
+    "publicId": "NOV-5WUR-J5",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019153
+  },
+  {
+    "internalId": "77974000-8a35-443f-be72-e9ec6512fdcf",
+    "publicId": "SPE-4YBP-6P",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019165
+  },
+  {
+    "internalId": "cda24427-ebb2-4dbc-a4ef-a94bc72c2fe6",
+    "publicId": "SPE-966A-V4",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788603019166
+  },
+  {
+    "internalId": "7cc625cf-1ee7-43b2-b167-d3c86f4a9cc1",
+    "publicId": "SHA-U7RJ-LY",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608650995
+  },
+  {
+    "internalId": "0713e0f6-3de9-4ab9-9036-7395c6318e52",
+    "publicId": "SHA-Z7CA-ZZ",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608650996
+  },
+  {
+    "internalId": "9e31916f-4d9e-4c4d-9974-f349bc609645",
+    "publicId": "KAI-YW2A-EX",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608651001
+  },
+  {
+    "internalId": "c56c7cd3-2cf1-4022-a6f7-d2c877516a77",
+    "publicId": "NOV-LSNZ-HJ",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608651009
+  },
+  {
+    "internalId": "75aa7132-71d9-4d12-83ed-2b9427e647dd",
+    "publicId": "KAI-UMA3-4W",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608651011
+  },
+  {
+    "internalId": "b7d978f5-52fa-4459-8817-95c2f5e904ce",
+    "publicId": "SPE-R88B-J5",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608651026
+  },
+  {
+    "internalId": "4534d04b-c578-4a97-902b-8aafcefd5aa2",
+    "publicId": "NOV-BNR4-7Y",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608651027
+  },
+  {
+    "internalId": "6effe1a1-9ae6-4808-b384-b57f8cfb7760",
+    "publicId": "SPE-RFY5-6T",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608651040
+  },
+  {
+    "internalId": "37fa4bcd-786b-4195-97be-c89776d7e3c1",
+    "publicId": "SHA-SGSQ-X9",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877530
+  },
+  {
+    "internalId": "aeb6b378-1c7f-4161-92b1-6568e27a9fb3",
+    "publicId": "SHA-K5YA-JG",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877530
+  },
+  {
+    "internalId": "d8148502-cc04-41e0-b646-4e45df101b50",
+    "publicId": "KAI-MH3V-Y4",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877534
+  },
+  {
+    "internalId": "b792df00-83e6-4520-ab53-9e5bdc4c6419",
+    "publicId": "KAI-JZ6L-9L",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877535
+  },
+  {
+    "internalId": "7095b764-7ba9-4d77-b702-16b02842cd0a",
+    "publicId": "NOV-NHVF-5G",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877551
+  },
+  {
+    "internalId": "3536b271-efec-4d16-b973-61176b8884cd",
+    "publicId": "NOV-USMC-MH",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877552
+  },
+  {
+    "internalId": "f04c9fc3-82ee-46eb-904a-77ef5d26887d",
+    "publicId": "SPE-XN32-B5",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877557
+  },
+  {
+    "internalId": "49da580e-f086-4a0d-aaf4-92fda52ff8fe",
+    "publicId": "SPE-8S7G-BX",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788608877573
+  },
+  {
+    "internalId": "0988d85f-304f-4255-8a96-7e476c97ee05",
+    "publicId": "SHA-NY7Y-UC",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494804
+  },
+  {
+    "internalId": "08e558f4-2605-4d05-8e0e-b901a4d43f09",
+    "publicId": "SHA-P45A-ZE",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494806
+  },
+  {
+    "internalId": "66d0ca83-181b-4584-b51a-e59b22647d4b",
+    "publicId": "KAI-C2YF-89",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494810
+  },
+  {
+    "internalId": "fce378df-0ca3-49db-b6eb-3c26a644efac",
+    "publicId": "NOV-6H67-5X",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494815
+  },
+  {
+    "internalId": "43ad5993-6a62-4060-9d30-ee6e76a2d897",
+    "publicId": "SPE-NWWJ-KK",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494830
+  },
+  {
+    "internalId": "fea5590d-d2ad-491c-9d34-dff44ebaabe8",
+    "publicId": "KAI-VLPQ-J9",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494833
+  },
+  {
+    "internalId": "dd459e49-f742-41d0-95af-7e6d9cac6fd7",
+    "publicId": "NOV-BYWK-AN",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494843
+  },
+  {
+    "internalId": "77e60f13-2682-422c-a6f5-3ffdc66835e9",
+    "publicId": "SPE-FWMM-JG",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610494865
+  },
+  {
+    "internalId": "6b0c3804-0ddc-4d2e-ae5a-43957fb31e37",
+    "publicId": "SHA-N52H-WL",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532028
+  },
+  {
+    "internalId": "458b0dac-f774-4824-aa4d-d3f1b04d00e3",
+    "publicId": "KAI-UMG3-8S",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532041
+  },
+  {
+    "internalId": "19435dce-8041-4a8c-9167-801c2f6b0c61",
+    "publicId": "NOV-5U2H-KC",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532057
+  },
+  {
+    "internalId": "b81326ea-c3ff-4442-a568-bdea6f57be46",
+    "publicId": "SPE-FKZC-RR",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532074
+  },
+  {
+    "internalId": "fd9ef763-40fa-4ca0-bc63-5cf7addb7cb1",
+    "publicId": "MAT-594V-Z7",
+    "characterName": "MatchSeeker1",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "tech"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532250
+  },
+  {
+    "internalId": "571f8d19-7c5e-472b-aff6-265a5aea76a4",
+    "publicId": "MAT-L9JD-FT",
+    "characterName": "MatchSeeker2",
+    "avatarStyle": "cyber",
+    "interests": [
+      "anime",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532257
+  },
+  {
+    "internalId": "1a1e249d-c49e-4951-98ad-e0fd01defc18",
+    "publicId": "CAN-YMF7-BH",
+    "characterName": "CancelUser",
+    "avatarStyle": "samurai",
+    "interests": [
+      "philosophy"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532385
+  },
+  {
+    "internalId": "0d03414b-30dd-461a-8adf-9df594eb2678",
+    "publicId": "HOS-TXEC-N5",
+    "characterName": "HostPeer",
+    "avatarStyle": "toon",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532435
+  },
+  {
+    "internalId": "63a72c83-249f-4739-9665-587b36585bf1",
+    "publicId": "GUE-JVKU-BX",
+    "characterName": "GuestPeer",
+    "avatarStyle": "shadow",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610532439
+  },
+  {
+    "internalId": "767b24b1-bc68-4058-8e7c-77459af54f01",
+    "publicId": "SHA-8JHD-DC",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665189
+  },
+  {
+    "internalId": "9beee0b7-21cc-4ff3-b68a-45ef316ba5cb",
+    "publicId": "KAI-WW5L-DS",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665194
+  },
+  {
+    "internalId": "6d2912a2-cfae-40fc-b87e-13c35d550a85",
+    "publicId": "NOV-F4GR-5M",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665201
+  },
+  {
+    "internalId": "3d2282db-b12b-4cc0-b589-dc0bc5958d86",
+    "publicId": "SPE-AV2S-VA",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665219
+  },
+  {
+    "internalId": "d59ce3a3-f5dd-4d55-aa37-0dc71775db9d",
+    "publicId": "MAT-S6P5-VU",
+    "characterName": "MatchSeeker1",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "tech"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665395
+  },
+  {
+    "internalId": "21667b6f-72a9-46bc-8116-3bdf95f909c9",
+    "publicId": "MAT-AAFC-7R",
+    "characterName": "MatchSeeker2",
+    "avatarStyle": "cyber",
+    "interests": [
+      "anime",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665398
+  },
+  {
+    "internalId": "7fc42dc5-cbcb-4c2c-8b03-1e6165c427e8",
+    "publicId": "CAN-A23H-U6",
+    "characterName": "CancelUser",
+    "avatarStyle": "samurai",
+    "interests": [
+      "philosophy"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665538
+  },
+  {
+    "internalId": "fbb8049f-dd75-4de3-adc4-6cd6636bfda7",
+    "publicId": "HOS-HZ55-WZ",
+    "characterName": "HostPeer",
+    "avatarStyle": "toon",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665584
+  },
+  {
+    "internalId": "91e4efd4-4a71-4960-b236-75495d7a0196",
+    "publicId": "GUE-66DR-5R",
+    "characterName": "GuestPeer",
+    "avatarStyle": "shadow",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610665599
+  },
+  {
+    "internalId": "8f82c083-e6bc-4812-9c1d-51e1be76472d",
+    "publicId": "SHA-3FJC-4H",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610738750
+  },
+  {
+    "internalId": "80ca2264-024b-4c22-b982-55e53f52b928",
+    "publicId": "KAI-C26C-8D",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610738755
+  },
+  {
+    "internalId": "226ad4f6-596a-4847-b524-0a9aa9721402",
+    "publicId": "NOV-UAJX-K4",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610738771
+  },
+  {
+    "internalId": "be3962e6-c631-4215-8b04-faa1bf31bff4",
+    "publicId": "SPE-24DT-G8",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610738776
+  },
+  {
+    "internalId": "613afde5-7af6-4347-a1e0-3f098e75992e",
+    "publicId": "MAT-3G6K-7Q",
+    "characterName": "MatchSeeker1",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "tech"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610738934
+  },
+  {
+    "internalId": "f778a7bb-503b-43bb-9992-647bbc77a0a2",
+    "publicId": "MAT-B4H8-HL",
+    "characterName": "MatchSeeker2",
+    "avatarStyle": "cyber",
+    "interests": [
+      "anime",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610738941
+  },
+  {
+    "internalId": "7f8a4dc2-5570-4672-a002-872d558afe56",
+    "publicId": "CAN-BHDK-UP",
+    "characterName": "CancelUser",
+    "avatarStyle": "samurai",
+    "interests": [
+      "philosophy"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610739076
+  },
+  {
+    "internalId": "3f82eb0a-0079-4518-adb4-28a75eef9a3b",
+    "publicId": "HOS-73VT-WL",
+    "characterName": "HostPeer",
+    "avatarStyle": "toon",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610739107
+  },
+  {
+    "internalId": "f6aa579e-586e-47e6-90a1-0c482a204015",
+    "publicId": "GUE-6FCU-XX",
+    "characterName": "GuestPeer",
+    "avatarStyle": "shadow",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788610739120
+  },
+  {
+    "internalId": "bea4cc6f-a1c7-4239-8592-662e0857f150",
+    "publicId": "SHA-8YCY-P5",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092274
+  },
+  {
+    "internalId": "95a439c8-8605-479d-91d8-742a974c417a",
+    "publicId": "KAI-L7MT-87",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092289
+  },
+  {
+    "internalId": "8449d8e2-b16c-443d-a580-18cecc0207f7",
+    "publicId": "NOV-5GWB-6H",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092305
+  },
+  {
+    "internalId": "640b7b89-4805-4340-98fa-7d9b5da4a966",
+    "publicId": "SPE-JY3K-GW",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092321
+  },
+  {
+    "internalId": "788ee3cc-02bf-4f25-881b-515ddb688d8a",
+    "publicId": "MAT-7GRZ-6Q",
+    "characterName": "MatchSeeker1",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "tech"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092483
+  },
+  {
+    "internalId": "aebf2963-aa05-4770-9d3f-6067ef826e45",
+    "publicId": "MAT-QC86-FN",
+    "characterName": "MatchSeeker2",
+    "avatarStyle": "cyber",
+    "interests": [
+      "anime",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092487
+  },
+  {
+    "internalId": "0f33999f-bf08-4114-8e9a-cfac9be6fe10",
+    "publicId": "CAN-UB7Q-BD",
+    "characterName": "CancelUser",
+    "avatarStyle": "samurai",
+    "interests": [
+      "philosophy"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092626
+  },
+  {
+    "internalId": "36b4a810-300b-48bc-bcfa-4c0325e588df",
+    "publicId": "HOS-WJ87-AX",
+    "characterName": "HostPeer",
+    "avatarStyle": "toon",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092670
+  },
+  {
+    "internalId": "91b89b35-2f8a-4116-a529-47952ab5d8f5",
+    "publicId": "GUE-LKT5-HW",
+    "characterName": "GuestPeer",
+    "avatarStyle": "shadow",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788611092687
+  },
+  {
+    "internalId": "90b59224-efd0-4ec2-8489-9b5e1918bd33",
+    "publicId": "SHA-WJ2Q-M5",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613384154
+  },
+  {
+    "internalId": "a65ca5d5-f4c6-4620-989f-8b2b36a87c46",
+    "publicId": "KAI-QBTF-HU",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613384175
+  },
+  {
+    "internalId": "bd43204d-2623-4b38-acb3-b6b08339d1bd",
+    "publicId": "NOV-JCRA-A8",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613384192
+  },
+  {
+    "internalId": "16ca0ceb-4f26-4d44-a0fc-e9ec7ced55bc",
+    "publicId": "SPE-HKHS-TT",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613384204
+  },
+  {
+    "internalId": "dc70b047-6e1f-49c1-ba82-c08db514d940",
+    "publicId": "MAT-FEHB-QH",
+    "characterName": "MatchSeeker1",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "tech"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613394048
+  },
+  {
+    "internalId": "e4ab4bdf-84b1-48bc-b3e6-b6e8c87f1215",
+    "publicId": "MAT-KEYG-5N",
+    "characterName": "MatchSeeker2",
+    "avatarStyle": "cyber",
+    "interests": [
+      "anime",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613394057
+  },
+  {
+    "internalId": "07eed18f-b407-4afd-9ffa-affde1788567",
+    "publicId": "CAN-HCB5-QV",
+    "characterName": "CancelUser",
+    "avatarStyle": "samurai",
+    "interests": [
+      "philosophy"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613394228
+  },
+  {
+    "internalId": "54520d9b-314f-4a94-8371-c984168715d6",
+    "publicId": "HOS-WMFK-NK",
+    "characterName": "HostPeer",
+    "avatarStyle": "toon",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613394273
+  },
+  {
+    "internalId": "0fa05f54-5a5a-4f59-b809-b3104cf2ab85",
+    "publicId": "GUE-N2EQ-57",
+    "characterName": "GuestPeer",
+    "avatarStyle": "shadow",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613394283
+  },
+  {
+    "internalId": "7bf6bc6e-c0ab-4cc0-8f8c-f5b9681c3adf",
+    "publicId": "SHA-C3P5-RZ",
+    "characterName": "ShadowRen",
+    "avatarStyle": "shadow",
+    "interests": [
+      "anime",
+      "gaming"
+    ],
+    "bio": "Ghost in the shell",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422352
+  },
+  {
+    "internalId": "0f50eeb5-97f3-4856-b285-9506cda0e81e",
+    "publicId": "KAI-5ACV-5W",
+    "characterName": "KairoVex",
+    "avatarStyle": "cyber",
+    "interests": [
+      "gaming",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422362
+  },
+  {
+    "internalId": "b8aa8151-230e-4c5e-a9b1-5dca07b344e5",
+    "publicId": "NOV-BGBM-PC",
+    "characterName": "NovaByte",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "coding"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422379
+  },
+  {
+    "internalId": "8af45c16-fb24-42af-9773-90d1d4d1902b",
+    "publicId": "SPE-CYF9-GT",
+    "characterName": "SpecterNox",
+    "avatarStyle": "samurai",
+    "interests": [
+      "anime"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422386
+  },
+  {
+    "internalId": "2a535644-1d85-409b-88fc-c69578fdf7db",
+    "publicId": "MAT-TDSZ-9S",
+    "characterName": "MatchSeeker1",
+    "avatarStyle": "neon",
+    "interests": [
+      "anime",
+      "tech"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422566
+  },
+  {
+    "internalId": "ad3cd0fa-1df5-499e-bcf0-43d1eae8c7b6",
+    "publicId": "MAT-Q9E2-Y8",
+    "characterName": "MatchSeeker2",
+    "avatarStyle": "cyber",
+    "interests": [
+      "anime",
+      "music"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422571
+  },
+  {
+    "internalId": "bd30642b-00ec-4971-b64c-9850a0d3e98a",
+    "publicId": "CAN-3WJS-LQ",
+    "characterName": "CancelUser",
+    "avatarStyle": "samurai",
+    "interests": [
+      "philosophy"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422708
+  },
+  {
+    "internalId": "83438503-c474-4ee8-a6f9-6e0c66a7031e",
+    "publicId": "HOS-ACYL-QV",
+    "characterName": "HostPeer",
+    "avatarStyle": "toon",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422754
+  },
+  {
+    "internalId": "b4311259-73a6-45da-956d-c9be8797573d",
+    "publicId": "GUE-P77G-59",
+    "characterName": "GuestPeer",
+    "avatarStyle": "shadow",
+    "interests": [
+      "gaming"
+    ],
+    "bio": "",
+    "voicePreference": "voice_and_text",
+    "presence": "online",
+    "createdAt": 1788613422757
+  }
+]

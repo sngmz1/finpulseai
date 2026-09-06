@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: anonymus-chat-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npx tsx server/src/index.ts
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: NODE_ENV
+        value: production

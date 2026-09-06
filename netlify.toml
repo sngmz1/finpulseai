@@ -1,0 +1,14 @@
+# Netlify Production Build Configuration for Anonymous Voice Social Platform
+
+[build]
+  command = "npm --prefix client install && npm --prefix client run build && node scripts/sync-dist.js"
+  publish = "client/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Single Page Application (SPA) redirect rule
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

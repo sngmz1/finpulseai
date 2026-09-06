@@ -1,0 +1,31 @@
+{
+  "name": "ANON // Anonymous Voice & Text Lounge",
+  "short_name": "AnonVoice",
+  "description": "Talk. Connect. Leave no unnecessary identity behind. Anonymous voice and text communication.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07080b",
+  "theme_color": "#07080b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "communication", "entertainment"],
+  "shortcuts": [
+    {
+      "name": "Random Match",
+      "url": "/?action=match",
+      "description": "Quickly match with someone anonymously"
+    },
+    {
+      "name": "Nearby Radar",
+      "url": "/?action=nearby",
+      "description": "Check nearby anonymous devices"
+    }
+  ]
+}
